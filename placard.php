@@ -56,7 +56,7 @@ class Placard {
 			'hierarchical'			 => false,
 			'menu_position'			 => null,
 			'supports'					 => array( 'title', 'excerpt'),
-			'menu_icon' 		 		 => 'dashicons-hammer',
+			'menu_icon' 		 		 => 'dashicons-except-view',
 			// 'taxonomies' 		     => array( 'post_tag' )
 		);
 
@@ -93,8 +93,8 @@ class Placard {
 			'has_archive'				 => true,
 			'hierarchical'			 => false,
 			'menu_position'			 => null,
-			'supports'					 => array( 'title', 'editor', 'author', 'thumbnail' ),
-			'menu_icon' 		 		 => 'dashicons-hammer',
+			'supports'					 => array( 'title' ),
+			'menu_icon' 		 		 => 'dashicons-megaphone',
 			// 'taxonomies' 		     => array( 'post_tag' )
 		);
 
